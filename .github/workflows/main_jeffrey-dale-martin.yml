@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'jeffrey-dale-martin'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AD6CA28F0E854767AC46FE95B6A55AB8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E18E9EA627014DF7B36B1628135A8146 }}
           package: .
