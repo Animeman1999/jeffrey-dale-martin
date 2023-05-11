@@ -27,7 +27,7 @@ include("header.php");?>
 -->
         <a href="http://ec2-3-137-220-48.us-east-2.compute.amazonaws.com/CS2010/final_project/index.php" target="_blank"
         > <img  class="card"  src="images/vacation.PNG"></a>
-        <div class="leaffrey project-left-block" >
+        <div class="vacation project-left-block" >
             <h4>Jeff and Lea's journey to Europe 2023</h4>
             <p>This site was created for a class assignment. It was created using PHP and is hosted on AWS.</p>
             <p>The site is a simple presentation site with limited functionality.</p>
