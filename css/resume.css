@@ -1,0 +1,45 @@
+.card {
+    border: 3px solid black;
+    box-shadow: 2px 4px 4px black;
+}
+.resume img{
+    width: 25%;
+    margin-top: -70%;
+    margin-left: 65%;
+    opacity: .8;
+}
+#left-block{
+    margin-top: -50%;
+    padding-left: 10px;
+}
+
+#resume {
+    color: aqua;
+}
+
+@media (max-width: 600px) {
+    #left-block{
+        position: relative;
+    }
+    .content {
+        background-size: contain;
+        background-repeat: repeat;
+        background-image: url("../images/pond.jpg");
+    }
+}
+
+@media (max-width: 600px){
+    #left-block{
+        margin-top: -52%;
+        width:90%;
+        margin-left:5%;
+        position: relative;
+    }
+    .content img{
+        margin-top: 6%;
+        width:90%;
+        margin-left:5%;
+        margin-bottom: 5%;
+    }
+
+}

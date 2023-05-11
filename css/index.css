@@ -1,0 +1,29 @@
+#home {
+    color: aqua;
+}
+#left-block {
+    margin-top: -52%;
+    background-color: transparent;
+    box-shadow: none;
+    color: white;
+    width: 80%
+}
+@media (max-width: 500px) {
+    #left-block{
+        position: relative;
+        width:90%;
+        margin-bottom: 20%;
+    }
+    .content {
+        background-size: contain;
+        background-repeat: repeat;
+        background-image: url("../images/Washington.jpg");
+    }
+    #left-block {
+        width: 80%;
+        background-color: white;
+        opacity: .7;
+        box-shadow: 2px 5px 5px #95989A;
+        color: #333398;
+    }
+}

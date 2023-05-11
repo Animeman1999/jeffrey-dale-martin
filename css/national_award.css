@@ -1,0 +1,22 @@
+.award_images img{
+    width: 32.5%;
+
+}
+.white {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    background: white;
+    text-align: center;
+}
+#award {
+    color: aqua;
+}
+
+.water {
+    color: black;
+}
+
+.w3-card {
+    opacity: .8;
+    padding: 10px;
+}

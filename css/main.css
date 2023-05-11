@@ -1,0 +1,146 @@
+.content img{
+    width: 100%;
+}
+.color-gradient {
+    width: 100%;
+    background: #9CBAED;
+    background: -webkit-linear-gradient(45deg, #3011fa, #9CBAED);
+    background: -o-linear-gradient(45deg, #3011fa, #9CBAED);
+    background: -moz-linear-gradient(45deg, #3011fa, #9CBAED);
+    background: linear-gradient(45deg, #3011fa, #9CBAED);
+
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 33px 30px;
+}
+.c {
+    text-align: center;
+}
+
+.w3-card {
+    background-color: white;
+    opacity: .6;
+    box-shadow: 2px 5px 5px #95989A;
+    margin-left: 10%;
+    width: 80%;
+    padding-left: 10px;
+}
+.container {
+    margin-top: 40px;
+    width: 100% !important;
+    background-color: #0D0C0C;
+    color: white;
+}
+.nav-container {
+    line-height: 22px;
+    margin-top: -15px;
+    background-color: #0D0C0C;
+    color: white;
+    height: 100px;
+    font-size: 160%;
+}
+
+.nav-container a{
+    text-decoration: none;
+}
+ul.nav li{
+    display: inline;
+    padding-left: 3%;
+}
+
+.font_messages{
+    font-family: Source Sans Pro, Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+    font-weight: bold;
+    color: #333398;
+}
+
+#left-block{
+    position: absolute;
+    margin-top: -44%;
+    margin-left: 5%;
+    width: 50%;
+    background-color: white;
+    opacity: .8;
+    box-shadow: 2px 5px 5px #95989A;
+    padding-left: 5px;
+}
+body{
+    padding: .5% 3% 2% 3%;
+    background: #333398;
+}
+.headshot {
+    width: 100px;
+}
+.center {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 120%;
+}
+.water {
+    margin-top: -20px;
+    background-image: url("../images/water.jpg");
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.footer {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+@media (max-width: 551px) {
+    ul.nav li {
+        display: block;
+    }
+    .nav-container{
+        height: 190px;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
+    ul.nav li {
+        display: block;
+    }
+    .nav-container{
+        height: 190px;
+    }
+}
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 4) {
+    ul.nav li {
+        display: block;
+    }
+    .nav-container{
+        height: 190px;
+    }
+}
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3) {
+    ul.nav li {
+        display: block;
+    }
+    .nav-container{
+        height: 190px;
+    }
+}

@@ -1,0 +1,45 @@
+body {
+  /*background-image: url("../images/coypond.PNG");*/
+    /*background-size: cover;*/
+
+}
+
+#contact{
+    color: aqua;
+}
+input.underline
+{
+    border:0;
+    border-bottom:solid 1px #000;
+    outline:none; /* prevents textbox highlight in chrome */
+    padding-right: 5px;
+
+}
+
+.half-length{
+    width: 44.5%;
+}
+
+.full-length {
+    width: 90%;
+}
+
+.full-length-height {
+    width: 90%;
+    height: 340px;
+}
+
+.w3-card{
+    padding: 5px;
+    opacity: .8;
+}
+
+textarea{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.water{
+
+    background-image: url("../images/cat_tails.jpg");
+}
